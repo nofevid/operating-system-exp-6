@@ -3,7 +3,7 @@ ls > filedir.txt
 mkdir testdir2
 for filename in `ls`
 do
-	echo ${filename#*.}
+	# echo ${filename#*.}
 	if [ ${filename#*.} = "c" ]
 	then
 		cp $filename testdir2/$filename
