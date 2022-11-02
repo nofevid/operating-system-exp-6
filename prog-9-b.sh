@@ -1,4 +1,4 @@
-
+#! bin/bash
 loopcount=0
 result=0
 while [ $loopcount -lt 10 ]

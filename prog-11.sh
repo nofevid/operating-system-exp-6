@@ -1,6 +1,5 @@
 #!/bin/bash
-
 echo "$HOME"
 echo "$PATH"
-ls -l prog1
-ls -l prog1-2
+ls -l prog-2.sh
+ls -l prog-2-1.sh

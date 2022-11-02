@@ -1,31 +1,21 @@
 #!/bin/bash
-if [ -d cppdir ]
+num1="0"
+num2="1"
+if [ $num1 -eq $num2 ]
 then
-    echo “cppdir is a directory”
+    echo "num1 equal to num2"
 else
-    echo “cppdir is not a directory”
+    echo "num1 not equal to num2"
 fi
-if [ -f filea ]
+if [ $num1 -eq $num2 ]
 then
-    echo “filea is a regular file”
+    echo "num1 is bigger than or equal to num2"
 else
-    echo “filea is not a regular file”
+    echo "num1 is smaller than or equal to num2"
 fi
-if [ -r filea ]
+if [ $num1 -eq $num2 ]
 then
-    echo “filea has read permissione”
+    echo "num1 is bigger than num2"
 else
-    echo “filea dose not have read permissione”
-fi
-if [ -w filea ]
-then
-    echo “filea has write permissione”
-else
-    echo “filea dose not have write permissione”
-fi
-if [ -x cppdir ]
-then
-    echo “cppdir has execute permissione”
-else
-    echo “cppdir dose not have execute permissione”
+    echo "num1 is smaller than num2"
 fi
