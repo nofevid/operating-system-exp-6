@@ -2,7 +2,7 @@
 read name
 if [ $name ]
 then
-	echo "Your name is "$name
+	echo "Your name is ${name}"
 else
 	echo "Name not provided"
 fi
